@@ -1,4 +1,5 @@
 Drupal como alternativa de wordpress
+csv -> archivo que separa los espacios con ;
 Partes de una página:
 - Inicialización
 - Declaración de funciones y clases
