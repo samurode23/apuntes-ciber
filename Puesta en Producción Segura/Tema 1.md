@@ -4,3 +4,6 @@ Partes de una página:
 - Declaración de funciones y clases
 - Lógica de negocio
 - Lógica de presentación
+Paso por referencia -> la variable cambia
+Paso por valor -> la variable no cambia
+Etiqueta pre en html es para que se vean los saltos de línea
