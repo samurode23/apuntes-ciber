@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "6f3408e3c966195f",
+    "id": "2030050e3bb432d4",
     "type": "split",
     "children": [
       {
-        "id": "d75d7aeffd8a4736",
+        "id": "8cf1b9aea54ea589",
         "type": "tabs",
         "children": [
           {
-            "id": "9fca01a0091f223a",
+            "id": "9c7ee3e1f77bceca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes y Sistemas/Repaso.md",
+                "file": "Puesta en Producción Segura/Tema 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso"
+              "title": "Tema 1"
             }
           }
         ]
@@ -27,28 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9558fb40128496c2",
+    "id": "7d37b549cacfc7fd",
     "type": "split",
     "children": [
       {
-        "id": "c9ae8b99862119c8",
+        "id": "f5d86939491c5418",
         "type": "tabs",
         "children": [
           {
-            "id": "02aa3b4e3ea7c68c",
+            "id": "0a534321008a160e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
             }
           },
           {
-            "id": "563e6787f5c19c74",
+            "id": "7166b75a2deee55b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Buscar"
             }
           },
           {
-            "id": "cede3cadaa75760a",
+            "id": "a4ddce674b17f408",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
         ]
@@ -81,15 +81,15 @@
     "width": 300
   },
   "right": {
-    "id": "41dea0dcdaac5c28",
+    "id": "cdfc3db6a9efd4a4",
     "type": "split",
     "children": [
       {
-        "id": "0d796780e6e4e4b8",
+        "id": "8a5842a6d59c8a5e",
         "type": "tabs",
         "children": [
           {
-            "id": "67d071fd5c74d40b",
+            "id": "bfd883796f375cb8",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -103,11 +103,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Enlaces entrantes"
             }
           },
           {
-            "id": "59c55e2ff22e33bd",
+            "id": "01bb0e8d31842978",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -116,11 +116,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Enlaces salientes"
             }
           },
           {
-            "id": "59197e8e62c3212a",
+            "id": "f5c8e5723361489e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,11 +131,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "9900a4bfdb314782",
+            "id": "676da3ce8dfce515",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -145,7 +145,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Esquema"
             }
           }
         ]
@@ -167,26 +167,21 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "9fca01a0091f223a",
+  "active": "9c7ee3e1f77bceca",
   "lastOpenFiles": [
-    "Bastionado de Redes y Sistemas/Tema 1.md",
+    "Normativas de Ciberseguridad/Tema 1.md",
+    "Bastionado de Redes y Sistemas/Repaso.md",
     "Puesta en Producción Segura/Tema 1.md",
     "Puesta en Producción Segura",
     "Incidentes de Ciberseguridad/Tema 1.md",
+    "Normativas de Ciberseguridad",
+    "Hacking Ético/Tema 1.md",
     "Incidentes de Ciberseguridad",
+    "Hacking Ético",
     "Bastionado de Redes y Sistemas/img/bastionado-de-redes-y-sistemas-1.webp",
     "Bastionado de Redes y Sistemas/img",
-    "Bastionado de Redes y Sistemas/Repaso.md",
+    "Bastionado de Redes y Sistemas/Tema 1.md",
     "Análisis Forense Informático/Tema 1.md",
-    "Puesta Producción Segura/Tema 1.md",
-    "Puesta Producción Segura",
-    "Normativas de Ciberseguridad/Tema 1.md",
-    "Normativas de Ciberseguridad",
-    "Incidencias de Ciberseguridad/Tema 1.md",
-    "Incidencias de Ciberseguridad",
-    "Hacking Ético/Tema 1.md",
-    "Hacking Ético",
-    "Sin título.md",
     "Bastionado de Redes y Sistemas",
     "Análisis Forense Informático"
   ]
