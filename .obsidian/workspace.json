@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Puesta en Producción Segura/Tema 1.md",
+                "file": "Bastionado de Redes y Sistemas/Tema 1.md",
                 "mode": "source",
                 "source": false
               },
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Tipos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,14 +168,15 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "9c7ee3e1f77bceca",
+  "active": "7166b75a2deee55b",
   "lastOpenFiles": [
+    "Bastionado de Redes y Sistemas/Repaso.md",
+    "Bastionado de Redes y Sistemas/Tema 1.md",
     "Puesta en Producción Segura/Tema 1.md",
     "ejemplo1/index.php",
     "index.php",
     "ejemplo1",
     "Normativas de Ciberseguridad/Tema 1.md",
-    "Bastionado de Redes y Sistemas/Repaso.md",
     "Puesta en Producción Segura",
     "Incidentes de Ciberseguridad/Tema 1.md",
     "Normativas de Ciberseguridad",
@@ -183,7 +185,6 @@
     "Hacking Ético",
     "Bastionado de Redes y Sistemas/img/bastionado-de-redes-y-sistemas-1.webp",
     "Bastionado de Redes y Sistemas/img",
-    "Bastionado de Redes y Sistemas/Tema 1.md",
     "Análisis Forense Informático/Tema 1.md",
     "Bastionado de Redes y Sistemas",
     "Análisis Forense Informático"
