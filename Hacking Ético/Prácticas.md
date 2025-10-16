@@ -14,3 +14,4 @@ exit o bye
 cat flag.txt
 
 Baile
+nmap -sV
