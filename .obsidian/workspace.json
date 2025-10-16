@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes y Sistemas/Repaso.md",
+                "file": "Bastionado de Redes y Sistemas/Tema 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repaso"
+              "title": "Tema 1"
             }
           }
         ]
@@ -169,8 +169,8 @@
   },
   "active": "9c7ee3e1f77bceca",
   "lastOpenFiles": [
-    "Bastionado de Redes y Sistemas/Tema 1.md",
     "Bastionado de Redes y Sistemas/Repaso.md",
+    "Bastionado de Redes y Sistemas/Tema 1.md",
     "Puesta en Producción Segura/Tema 1.md",
     "ejemplo1/index.php",
     "index.php",
