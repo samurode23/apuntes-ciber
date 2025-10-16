@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Tipos",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,7 +167,7 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "7166b75a2deee55b",
+  "active": "0a534321008a160e",
   "lastOpenFiles": [
     "Bastionado de Redes y Sistemas/Repaso.md",
     "Bastionado de Redes y Sistemas/Tema 1.md",
