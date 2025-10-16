@@ -15,3 +15,15 @@ cat flag.txt
 
 Baile
 nmap -sV
+sudo apt-get install smbclient
+smbclient -L 10.129.246.26
+smbclient \\\\10.129.246.26\\ADMIN$
+smbclient \\\\10.129.246.26\\C$
+smbclient \\\\10.129.246.26\\WorkShares
+ls
+cd Amy.j
+ls
+get worknotes.txt
+cd ..
+cd James.P
+ls
