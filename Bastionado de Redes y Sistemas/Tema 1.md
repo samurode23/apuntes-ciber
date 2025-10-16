@@ -58,3 +58,8 @@
 **Cómo actúa:** Se infiltra en software legítimo y se activa en la condición preprogramada (borrar archivos, cifrar, etc.).  
 **Impacto:** Daños dirigidos y con timing, difíciles de anticipar.  
 **Defensa:** control de cambios en el código, revisiones de integridad, auditorías de código, segregación de funciones, backups.
+
+## Vulnerabilidad
+**CVE (Common Vulnerabilities and Exposures)** es un sistema que asigna un **identificador único y público** a cada vulnerabilidad de seguridad descubierta en software o hardware, permitiendo que empresas, investigadores y usuarios hablen de la misma falla de forma estandarizada. Cada CVE describe de manera breve el problema, su causa y posibles impactos. Ej. CVE-2021-44228
+
+**CVSS (Common Vulnerability Scoring System)** es un **sistema de puntuación** que mide la **gravedad o impacto** de una vulnerabilidad (como las registradas en CVE) mediante una escala del **0 al 10**, donde 10 indica la mayor criticidad. El CVSS evalúa factores como la facilidad de explotación, el nivel de acceso requerido, el impacto sobre la confidencialidad, integridad y disponibilidad del sistema, y se usa para **priorizar la gestión de parches y riesgos**. Ej. 10 critical
