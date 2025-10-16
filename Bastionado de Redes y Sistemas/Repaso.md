@@ -7,3 +7,5 @@
 | Transporte | Transporte                           | Segmento        |                               | TCP(seguro)<br>UDP(rápido)                                                 | Puertos 65535 (2^16)      | DDOS                  |
 | Internet   | Red                                  | Paquete         | Router<br>Firewall            | IPv4<br>IPv6<br>ICMP<br>ARP                                                | Direcciones IP o lógicas  | DDOS<br>IP spoofing   |
 | Subred     | Enlace de datos<br>Física            | Trama           | Switch<br>Access Point        | ARP<br>IEEE 802.3(Ethernet)<br>IEEE 802.11(Wifi)<br>IEEE 802.15(Bluetooth) | Direcciones Mac o físicas | ARP spoofing <br>MITM |
+
+pastebin
