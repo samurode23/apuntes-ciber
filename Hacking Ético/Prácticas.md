@@ -27,3 +27,7 @@ get worknotes.txt
 cd ..
 cd James.P
 ls
+get flag.txt
+exit
+cat worknotes.txt
+cat flag.txt
