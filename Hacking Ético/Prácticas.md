@@ -31,3 +31,7 @@ get flag.txt
 exit
 cat worknotes.txt
 cat flag.txt
+
+Redentor
+ping 10.129.47.43
+nmap -p- -sV 10.129.47.43
