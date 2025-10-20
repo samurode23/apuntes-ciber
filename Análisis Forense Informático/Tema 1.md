@@ -1,1 +1,11 @@
-egwgeweg
+- RAM
+- pagefile.sys: cuando el kernel detecta que no queda memoria en la RAM, usa estos archivos para seguir cargando procesos (como una ampliación de la memoria RAM en el almacenamiento) -> carving
+- swapfile -> UWP
+- hiberfile.sys
+- hives
+	- system
+	- software
+	- sam
+	- security
+	- default
+	- 
