@@ -1,4 +1,5 @@
 - RAM
+- $MFT
 - pagefile.sys -> carving
 - swapfile -> UWP
 - hiberfile.sys
