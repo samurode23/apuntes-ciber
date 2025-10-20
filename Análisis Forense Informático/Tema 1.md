@@ -10,3 +10,8 @@
 	- default
 - ntuser.dat
 - usrclass.DAT -> shellbags
+- EVTX
+- Prefetch (.pr)
+- Amcache.hve
+- SRUM (SRUBD.dat)
+- Jump list / LNK
