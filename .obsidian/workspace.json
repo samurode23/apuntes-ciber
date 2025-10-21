@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Forense Informático/Tema 1.md",
+                "file": "Hacking Ético/Tema 1.md",
                 "mode": "source",
                 "source": false
               },
@@ -184,6 +184,8 @@
   },
   "active": "03ef7fbcb5e06fcf",
   "lastOpenFiles": [
+    "tipotest.txt",
+    "Análisis Forense Informático/Tema 1.md",
     "Hacking Ético/Prácticas.md",
     "Hacking Ético/Tema 1.md",
     "Sin nombre",
@@ -201,7 +203,6 @@
     "Hacking Ético",
     "Bastionado de Redes y Sistemas/img/bastionado-de-redes-y-sistemas-1.webp",
     "Bastionado de Redes y Sistemas/img",
-    "Análisis Forense Informático/Tema 1.md",
     "Bastionado de Redes y Sistemas"
   ]
 }
