@@ -17,4 +17,6 @@
 - SRUM (SRUBD.dat)
 - Jump list / LNK
 
-fdfdf
+## __Comandos en Volatility
+
+
