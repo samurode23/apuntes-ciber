@@ -18,5 +18,6 @@
 - Jump list / LNK
 
 ## __Comandos en Volatility
+imageinfo te sale el OS exacto
 
 
