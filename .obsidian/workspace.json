@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Prácticas"
             }
+          },
+          {
+            "id": "aa2f19fb78694117",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +180,7 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "9c7ee3e1f77bceca",
+  "active": "aa2f19fb78694117",
   "lastOpenFiles": [
     "ICP1.1U1-RomerodelosReyesSamuel-SaqueteRiosErnesto.pdf",
     "AFIT2.1.1-RomerodelosReyesSamuel.pdf",
