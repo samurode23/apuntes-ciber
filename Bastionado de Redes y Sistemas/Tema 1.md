@@ -8,7 +8,7 @@
 	- 2000: 
 
 
-Zeek
+Zeek 
 ## __Tipos de malware__ (malicious software)
 ### Ransomware
 **Qué es:** Malware que cifra tus archivos o bloquea sistemas y exige un rescate (normalmente dinero) para restaurar el acceso.  
