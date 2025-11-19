@@ -20,25 +20,25 @@
 ## Necesidad del bastionado
 El bastionado es necesario para:
 - Proteger las tres dimensiones de la seguridad: 
-	- Confidencialidad: 
-	- Integridad: 
-	- Disponibilidad:
-	- Autentificación:
-	- No repudio: 
+	- Confidencialidad: garantiza que la información solo es accesible por las personas, sistemas o procesos autorizados. Evita accesos no permitidos y fugas de datos
+	- Integridad: asegura que los datos no han sido alterados, manipulados o borrados de forma no autorizada. La información debe mantenerse completa, exacta y consistente
+	- Disponibilidad: garantiza que la información, sistemas y servicios están accesibles cuando los usuarios los necesitan. Implica evitar caídas, interrupciones o ataques como DDoS
+	- Autentificación: poceso mediante el cual un sistema verifica que un usuario o dispositivo es realmente quien dice ser. Se realiza con contraseñas, certificados, tarjetas, biometría o MFA
+	- No repudio: impide que una persona o entidad pueda negar haber realizado una acción, como enviar un mensaje o firmar un documento. Se logra mediante firmas digitales, registros auditados o certificados
 - Cumplir con normativas como el RGPD, que exige cifrado y medidas de protección
 - Reducir riesgos ante amenazas como malware, fraudes, insiders o ataques externos
 - Corregir vulnerabilidades (fallos de software, configuraciones incorrectas, credenciales por defecto)
 ## Tipos de malware (malicious software)
 ### Ransomware
-Qué es: Malware que cifra tus archivos o bloquea sistemas y exige un rescate (normalmente dinero) para restaurar el acceso.  
-Cómo actúa: Suele entrar por phishing, exploits o RDP abierto; una vez dentro cifra datos y deja instrucciones.  
-Impacto: Pérdida de datos, interrupción de operaciones, costes económicos y reputacionales.  
-Defensa: backups offline y probados, parchear sistemas, segmentación de red, formación anti-phishing, detección/EDR.
+**Qué es**: Malware que cifra tus archivos o bloquea sistemas y exige un rescate (normalmente dinero) para restaurar el acceso.  
+**Cómo actúa:** Suele entrar por phishing, exploits o RDP abierto; una vez dentro cifra datos y deja instrucciones.  
+**Impacto:** Pérdida de datos, interrupción de operaciones, costes económicos y reputacionales.  
+**Defensa:** backups offline y probados, parchear sistemas, segmentación de red, formación anti-phishing, detección/EDR.
 ### Spyware
-Qué es: Software diseñado para espiar, recopila información (credenciales, historial, actividad) y la envía al atacante.  
-Cómo actúa: Se instala con instalaciones aparentemente legítimas, extensiones maliciosas o vulnerabilidades.  
-Impacto: Robo de identidad, violación de privacidad, filtración de datos sensibles.  
-Defensa: antivirus/antimalware actualizado, revisar permisos de apps/extensiones, evitar software pirata, políticas de privacidad.
+**Qué es:** Software diseñado para espiar, recopila información (credenciales, historial, actividad) y la envía al atacante.  
+**Cómo actúa:** Se instala con instalaciones aparentemente legítimas, extensiones maliciosas o vulnerabilidades.  
+**Impacto:** Robo de identidad, violación de privacidad, filtración de datos sensibles.  
+**Defensa:** antivirus/antimalware actualizado, revisar permisos de apps/extensiones, evitar software pirata, políticas de privacidad.
 ### Troyanos (Trojan horses)
 **Qué es:** Programas que se presentan como útiles/legítimos pero contienen código malicioso oculto.  
 **Cómo actúa:** Usuario los instala (ingeniería social); luego permiten puertas traseras, robo de datos o descarga de más malware.  
@@ -49,7 +49,7 @@ Defensa: antivirus/antimalware actualizado, revisar permisos de apps/extensiones
 **Cómo actúa:** Explota vulnerabilidades (p. ej. de servicios de red) para copiarse a otros equipos y ejecutarse.  
 **Impacto:** Tráfico masivo, denegación de servicio, propagación de carga útil (p.ej. ransomware).  
 **Defensa:** parches rápidos, cortafuegos, segmentación de red, sistemas de detección de intrusos.
-### Bots / Botnets
+### Bots/Botnets
 **Qué es:** Dispositivos infectados por un “bot” controlado por un atacante; muchos bots forman una botnet.  
 **Cómo actúa:** El bot recibe órdenes (C2) y puede lanzar ataques DDoS, enviar spam o minar cripto.  
 **Impacto:** abusos en gran escala, ataques coordinados, uso de recursos.  
@@ -84,7 +84,7 @@ Defensa: antivirus/antimalware actualizado, revisar permisos de apps/extensiones
 - **CVSS (Common Vulnerability Scoring System)** es un **sistema de puntuación** que mide la **gravedad o impacto** de una vulnerabilidad (como las registradas en CVE) mediante una escala del **0 al 10**, donde 10 indica la mayor criticidad. El CVSS evalúa factores como la facilidad de explotación, el nivel de acceso requerido, el impacto sobre la confidencialidad, integridad y disponibilidad del sistema, y se usa para **priorizar la gestión de parches y riesgos**. Ej. 10 critical.
 ## Bastionado (“Hardening”)
 Proceso destinado a reducir o mitigar vulnerabilidades mediante medidas técnicas, organizativas y de configuración.
-![[Captura de pantalla 2025-11-19 120337.png]]
+![[esquemaSeguridad.png]]
 Incluye:
 - Eliminar cuentas y contraseñas por defecto.
 - Actualizar sistemas y aplicar parches.
@@ -93,7 +93,7 @@ Incluye:
 - Crear políticas de copias de seguridad y planes de contingencia.
 - Elevar seguridad en redes inalámbricas.
 - Limitar funciones del sistema para reducir su superficie de ataque.
-
+![[capasDefenda.png]]
 Diferencia clave:
 - Amenaza: posibilidad de sufrir daño.
 - Vulnerabilidad: fallo que permite que la amenaza se materialice.
@@ -104,9 +104,8 @@ Evolución del modelo de mínimo privilegio. Surge por:
 - Movilidad
 - Infraestructuras híbridas (nube + on-premise)
 - IoT y ampliación del perímetro de red
-
+- 
 Principio básico: “No confíes en nadie por defecto, ni siquiera en la red interna”.
-
 Características:
 - Autenticación MFA/2FA
 - Control estricto de flujos de red
@@ -133,7 +132,7 @@ Incluye:
 - Priorización según criticidad.
 - Alineación con el negocio.
 - Ciclos de mejora continua (por ejemplo, PDCA / Deming).
-
+![[planDirector.png]]
 Basado en marcos como:
 - ISO 27001
 - NIST Cybersecurity Framework
