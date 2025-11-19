@@ -19,68 +19,15 @@
 	- Se crean servicios colaborativos, mejores herramientas defensivas y nuevas normativas
 ## Necesidad del bastionado
 El bastionado es necesario para:
-- Proteger las tres dimensiones de la seguridad: confidencialidad, integridad y disponibilidad
+- Proteger las tres dimensiones de la seguridad: 
+	- Confidencialidad: 
+	- Integridad: 
+	- Disponibilidad:
+	- Autentificación:
+	- No repudio: 
 - Cumplir con normativas como el RGPD, que exige cifrado y medidas de protección
 - Reducir riesgos ante amenazas como malware, fraudes, insiders o ataques externos
 - Corregir vulnerabilidades (fallos de software, configuraciones incorrectas, credenciales por defecto)
-
-## Bastionado (“Hardening”)
-Proceso destinado a reducir o mitigar vulnerabilidades mediante medidas técnicas, organizativas y de configuración.
-Incluye:
-- Eliminar cuentas y contraseñas por defecto.
-- Actualizar sistemas y aplicar parches.
-- Instalar firewalls, WAFs y otros sistemas defensivos.
-- Deshabilitar servicios y puertos innecesarios.
-- Crear políticas de copias de seguridad y planes de contingencia.
-- Elevar seguridad en redes inalámbricas.
-- Limitar funciones del sistema para reducir su superficie de ataque.
-Diferencia clave:
-- Amenaza: posibilidad de sufrir daño.
-- Vulnerabilidad: fallo que permite que la amenaza se materialice.
-
-## Modelo Zero Trust
-Evolución del modelo de mínimo privilegio. Surge por:
-- Teletrabajo
-- Movilidad
-- Infraestructuras híbridas (nube + on-premise)
-- IoT y ampliación del perímetro de red
-
-Principio básico: “No confíes en nadie por defecto, ni siquiera en la red interna”.
-
-Características:
-- Autenticación MFA/2FA
-- Control estricto de flujos de red
-- Acceso a aplicaciones en vez de acceso a toda la red
-- Privilegios mínimos
-- Detección avanzada de amenazas (incluidas zero-day)
-- VPNs transparentes
-
-## ¿Por dónde empiezo?
-Siempre con un análisis de riesgos.
-Antes de implementar medidas, se debe:
-- Identificar procesos críticos
-- Evaluar impacto y probabilidad de amenazas
-- Alinear la seguridad con la estrategia del negocio
-- Priorizar medidas según riesgo real, no por intuición
-
-Herramientas como el autodiagnóstico de INCIBE ayudan a evaluar personas, procesos y tecnologías.
-
-## Plan Director de Seguridad
-Documento estratégico que define cómo mejorar, mantener y gestionar la seguridad de una organización.
-Incluye:
-- Medidas técnicas y organizativas.
-- Definición clara del alcance.
-- Priorización según criticidad.
-- Alineación con el negocio.
-- Ciclos de mejora continua (por ejemplo, PDCA / Deming).
-
-Basado en marcos como:
-- ISO 27001
-- NIST Cybersecurity Framework
-- ENS (Esquema Nacional de Seguridad)
-- PCI-DSS
-
-Zeek
 ## Tipos de malware (malicious software)
 ### Ransomware
 Qué es: Malware que cifra tus archivos o bloquea sistemas y exige un rescate (normalmente dinero) para restaurar el acceso.  
@@ -135,3 +82,62 @@ Defensa: antivirus/antimalware actualizado, revisar permisos de apps/extensiones
 ## Vulnerabilidad
 - **CVE (Common Vulnerabilities and Exposures)** es un sistema que asigna un **identificador único y público** a cada vulnerabilidad de seguridad descubierta en software o hardware, permitiendo que empresas, investigadores y usuarios hablen de la misma falla de forma estandarizada. Cada CVE describe de manera breve el problema, su causa y posibles impactos. Ej. CVE-2021-44228.
 - **CVSS (Common Vulnerability Scoring System)** es un **sistema de puntuación** que mide la **gravedad o impacto** de una vulnerabilidad (como las registradas en CVE) mediante una escala del **0 al 10**, donde 10 indica la mayor criticidad. El CVSS evalúa factores como la facilidad de explotación, el nivel de acceso requerido, el impacto sobre la confidencialidad, integridad y disponibilidad del sistema, y se usa para **priorizar la gestión de parches y riesgos**. Ej. 10 critical.
+## Bastionado (“Hardening”)
+Proceso destinado a reducir o mitigar vulnerabilidades mediante medidas técnicas, organizativas y de configuración.
+![[Captura de pantalla 2025-11-19 120337.png]]
+Incluye:
+- Eliminar cuentas y contraseñas por defecto.
+- Actualizar sistemas y aplicar parches.
+- Instalar firewalls, WAFs y otros sistemas defensivos.
+- Deshabilitar servicios y puertos innecesarios.
+- Crear políticas de copias de seguridad y planes de contingencia.
+- Elevar seguridad en redes inalámbricas.
+- Limitar funciones del sistema para reducir su superficie de ataque.
+
+Diferencia clave:
+- Amenaza: posibilidad de sufrir daño.
+- Vulnerabilidad: fallo que permite que la amenaza se materialice.
+
+## Modelo Zero Trust
+Evolución del modelo de mínimo privilegio. Surge por:
+- Teletrabajo
+- Movilidad
+- Infraestructuras híbridas (nube + on-premise)
+- IoT y ampliación del perímetro de red
+
+Principio básico: “No confíes en nadie por defecto, ni siquiera en la red interna”.
+
+Características:
+- Autenticación MFA/2FA
+- Control estricto de flujos de red
+- Acceso a aplicaciones en vez de acceso a toda la red
+- Privilegios mínimos
+- Detección avanzada de amenazas (incluidas zero-day)
+- VPNs transparentes
+
+## ¿Por dónde empiezo?
+Siempre con un análisis de riesgos.
+Antes de implementar medidas, se debe:
+- Identificar procesos críticos
+- Evaluar impacto y probabilidad de amenazas
+- Alinear la seguridad con la estrategia del negocio
+- Priorizar medidas según riesgo real, no por intuición
+
+Herramientas como el autodiagnóstico de INCIBE ayudan a evaluar personas, procesos y tecnologías.
+
+## Plan Director de Seguridad
+Documento estratégico que define cómo mejorar, mantener y gestionar la seguridad de una organización.
+Incluye:
+- Medidas técnicas y organizativas.
+- Definición clara del alcance.
+- Priorización según criticidad.
+- Alineación con el negocio.
+- Ciclos de mejora continua (por ejemplo, PDCA / Deming).
+
+Basado en marcos como:
+- ISO 27001
+- NIST Cybersecurity Framework
+- ENS (Esquema Nacional de Seguridad)
+- PCI-DSS
+
+Zeek
