@@ -1,13 +1,45 @@
-- Orígenes
+## __Orígenes__:
 	- 70: 
+		- Casi no existía preocupación por la seguridad lógica
+		- Aparecen los primeros virus experimentales
 		- CERT (Computer Emergency Response Team)
 		- CIRT (Computer Incident Response Team)
 		- CSIRT (Computer Security Information Response Team)
 	- 80: 
-		- p
+		- La informática empieza a popularizarse
+		- Las amenazas lógicas se vuelven más relevantes (primeros gusanos (Morris), malware básico)
+		- Surgen riesgos derivados de redes más interconectadas y del auge del software comercial
 	- 2000: 
+		- Aumento masivo de incidentes debido a:
+			- Internet global
+			- Smartphones
+			- Cloud computing
+			- IoT (Internet of Things)
+		- Los ataques se vuelven más sofisticados
+		- Se crean servicios colaborativos, mejores herramientas defensivas y nuevas normativas
+__Necesidad del bastionado__
+El bastionado es necesario para:
+- Proteger las tres dimensiones de la seguridad: confidencialidad, integridad y disponibilidad
+- Cumplir con normativas como el RGPD, que exige cifrado y medidas de protección
+- Reducir riesgos ante amenazas como malware, fraudes, insiders o ataques externos
+- Corregir vulnerabilidades (fallos de software, configuraciones incorrectas, credenciales por defecto)
 
+## __Bastionado__ (“Hardening”)
+Proceso destinado a **reducir o mitigar vulnerabilidades** mediante medidas técnicas, organizativas y de configuración.
+Incluye:
+- Eliminar cuentas y contraseñas por defecto.
+- Actualizar sistemas y aplicar parches.
+- Instalar firewalls, WAFs y otros sistemas defensivos.
+- Deshabilitar servicios y puertos innecesarios.
+- Crear políticas de copias de seguridad y planes de contingencia.
+- Elevar seguridad en redes inalámbricas.
+- Limitar funciones del sistema para reducir su superficie de ataque.
 
+**Diferencia clave:**
+
+- **Amenaza:** posibilidad de sufrir daño.
+    
+- **Vulnerabilidad:** fallo que permite que la amenaza se materialice.
 Zeek 
 ## __Tipos de malware__ (malicious software)
 ### Ransomware
