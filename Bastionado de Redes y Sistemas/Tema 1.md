@@ -127,11 +127,11 @@ Herramientas como el autodiagnóstico de INCIBE ayudan a evaluar personas, proce
 ## Plan Director de Seguridad
 Documento estratégico que define cómo mejorar, mantener y gestionar la seguridad de una organización.
 Incluye:
-- Medidas técnicas y organizativas.
-- Definición clara del alcance.
-- Priorización según criticidad.
-- Alineación con el negocio.
-- Ciclos de mejora continua (por ejemplo, PDCA / Deming).
+- Medidas técnicas y organizativas
+- Definición clara del alcance
+- Priorización según criticidad
+- Alineación con el negocio
+- Ciclos de mejora continua (por ejemplo, PDCA / Deming)
 ![[planDirector.png]]
 Basado en marcos como:
 - ISO 27001
