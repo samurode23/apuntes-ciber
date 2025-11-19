@@ -65,7 +65,20 @@ Antes de implementar medidas, se debe:
 
 Herramientas como el autodiagnóstico de INCIBE ayudan a evaluar personas, procesos y tecnologías.
 
+## Plan Director de Seguridad
+Documento estratégico que define cómo mejorar, mantener y gestionar la seguridad de una organización.
+Incluye:
+- Medidas técnicas y organizativas.
+- Definición clara del alcance.
+- Priorización según criticidad.
+- Alineación con el negocio.
+- Ciclos de mejora continua (por ejemplo, PDCA / Deming).
 
+Basado en marcos como:
+- ISO 27001
+- NIST Cybersecurity Framework
+- ENS (Esquema Nacional de Seguridad)
+- PCI-DSS
 
 Zeek
 ## Tipos de malware (malicious software)
@@ -121,5 +134,4 @@ Defensa: antivirus/antimalware actualizado, revisar permisos de apps/extensiones
 **Defensa:** control de cambios en el código, revisiones de integridad, auditorías de código, segregación de funciones, backups.
 ## Vulnerabilidad
 - **CVE (Common Vulnerabilities and Exposures)** es un sistema que asigna un **identificador único y público** a cada vulnerabilidad de seguridad descubierta en software o hardware, permitiendo que empresas, investigadores y usuarios hablen de la misma falla de forma estandarizada. Cada CVE describe de manera breve el problema, su causa y posibles impactos. Ej. CVE-2021-44228.
-- 
 - **CVSS (Common Vulnerability Scoring System)** es un **sistema de puntuación** que mide la **gravedad o impacto** de una vulnerabilidad (como las registradas en CVE) mediante una escala del **0 al 10**, donde 10 indica la mayor criticidad. El CVSS evalúa factores como la facilidad de explotación, el nivel de acceso requerido, el impacto sobre la confidencialidad, integridad y disponibilidad del sistema, y se usa para **priorizar la gestión de parches y riesgos**. Ej. 10 critical.
