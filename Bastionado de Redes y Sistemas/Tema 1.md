@@ -23,7 +23,7 @@ El bastionado es necesario para:
 	- Confidencialidad: garantiza que la información solo es accesible por las personas, sistemas o procesos autorizados. Evita accesos no permitidos y fugas de datos
 	- Integridad: asegura que los datos no han sido alterados, manipulados o borrados de forma no autorizada. La información debe mantenerse completa, exacta y consistente
 	- Disponibilidad: garantiza que la información, sistemas y servicios están accesibles cuando los usuarios los necesitan. Implica evitar caídas, interrupciones o ataques como DDoS
-	- Autentificación: poceso mediante el cual un sistema verifica que un usuario o dispositivo es realmente quien dice ser. Se realiza con contraseñas, certificados, tarjetas, biometría o MFA
+	- Autentificación: proceso mediante el cual un sistema verifica que un usuario o dispositivo es realmente quien dice ser. Se realiza con contraseñas, certificados, tarjetas, biometría o MFA
 	- No repudio: impide que una persona o entidad pueda negar haber realizado una acción, como enviar un mensaje o firmar un documento. Se logra mediante firmas digitales, registros auditados o certificados
 - Cumplir con normativas como el RGPD, que exige cifrado y medidas de protección
 - Reducir riesgos ante amenazas como malware, fraudes, insiders o ataques externos
