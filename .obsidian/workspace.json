@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "03ef7fbcb5e06fcf",
+            "id": "9c7ee3e1f77bceca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking Ético/Prácticas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prácticas"
+            }
+          },
+          {
+            "id": "aa2f19fb78694117",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +36,7 @@
             }
           },
           {
-            "id": "627d87f7342caddf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bastionado de Redes y Sistemas/Tema 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tema 1"
-            }
-          },
-          {
-            "id": "d87c3b698e46439f",
+            "id": "2e567eac0326e723",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -196,33 +196,36 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "d87c3b698e46439f",
+  "active": "2e567eac0326e723",
   "lastOpenFiles": [
-    "Bastionado de Redes y Sistemas/img/portadaRepaso.webp",
-    "Bastionado de Redes y Sistemas/img/planDirector.png",
-    "Bastionado de Redes y Sistemas/img/esquemaSeguridad.png",
-    "Bastionado de Redes y Sistemas/img/capasDefenda.png",
-    "BRST1.6T1-RomerodelosReyesSamuel.pdf",
+    "BRST1.5T1-RomerodelosReyesSamuel/BRST1.5T1F2-RomerodelosReyesSamuel.pdf",
+    "BRST1.5T1-RomerodelosReyesSamuel/BRST1.5T1F1-RomerodelosReyesSamuel.pdf",
+    "BRST1.5T1-RomerodelosReyesSamuel",
     "Bastionado de Redes y Sistemas/Repaso.md",
-    "conflict-files-obsidian-git.md",
     "Bastionado de Redes y Sistemas/Tema 1.md",
+    "Bastionado de Redes y Sistemas/img/planDirector.png",
+    "Bastionado de Redes y Sistemas/img/capasDefenda.png",
+    "Bastionado de Redes y Sistemas/img/esquemaSeguridad.png",
+    "Bastionado de Redes y Sistemas/img/portadaRepaso.webp",
+    "Bastionado de Redes y Sistemas/img/Captura de pantalla 2025-11-19 120804.png",
+    "Pasted image 20251119120637.png",
+    "Bastionado de Redes y Sistemas/img/Captura de pantalla 2025-11-19 120606.png",
+    "Bastionado de Redes y Sistemas/img/Captura de pantalla 2025-11-19 120337.png",
     "Análisis Forense Informático/Tema 1.md",
-    "AFIT2.2T2-RomerodelosReyesSamuel.pdf",
-    "1.png",
-    "16.png",
-    "Hacking Ético/Tema 1.md",
-    "tipotest.txt",
-    "Hacking Ético/Prácticas.md",
-    "Sin nombre",
+    "conflict-files-obsidian-git.md",
+    "BRST1.6T1-RomerodelosReyesSamuel.pdf",
+    "AFIT2.5T2-RomerodelosReyesSamuel.pdf",
+    "Práctica Pareja 1.2_ Normativa de seguridad del puesto de trabajo.docx",
+    "ICP1.1U1-RomerodelosReyesSamuel-SaqueteRiosErnesto.pdf",
+    "AFIT2.1.1-RomerodelosReyesSamuel.pdf",
+    "AFIT2-RomerodelosReyesSamuel.pdf",
+    "A1-IC.docx",
     "Puesta en Producción Segura/Tema 1.md",
+    "Hacking Ético/Prácticas.md",
     "ejemplo1/index.php",
-    "index.php",
-    "ejemplo1",
     "Normativas de Ciberseguridad/Tema 1.md",
-    "Puesta en Producción Segura",
     "Incidentes de Ciberseguridad/Tema 1.md",
-    "Normativas de Ciberseguridad",
-    "Incidentes de Ciberseguridad",
+    "Hacking Ético/Tema 1.md",
     "Bastionado de Redes y Sistemas/img/bastionado-de-redes-y-sistemas-1.webp"
   ]
 }
