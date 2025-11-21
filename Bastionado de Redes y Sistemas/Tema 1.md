@@ -122,7 +122,6 @@ Antes de implementar medidas, se debe:
 - Priorizar medidas según riesgo real, no por intuición
 
 Herramientas como el autodiagnóstico de INCIBE ayudan a evaluar personas, procesos y tecnologías.
-
 ## Plan Director de Seguridad
 Documento estratégico que define cómo mejorar, mantener y gestionar la seguridad de una organización.
 Incluye:
