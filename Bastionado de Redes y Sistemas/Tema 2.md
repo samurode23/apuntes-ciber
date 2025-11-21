@@ -24,22 +24,22 @@ Se expone la necesidad de pasar del modelo lineal a uno circular en la industria
 ## **Medidas técnicas de seguridad**
 Se dividen en:
 ### Preventivas
-- Antivirus/antimalware
-- EDR/XDR
-- Firewalls
-- Copias de seguridad
-- DLP
-- Verificación de integridad
-- VPNs y comunicaciones seguras
-- IDS
-- Virtual patching
-- SIEM
+- Antimalware: soluciones básicas (antivirus) que hoy incluyen funciones adicionales como cortafuegos
+- EDR y XDR: versiones avanzadas del antimalware con capacidades predictivas y reactivas basadas en IA
+- Firewalls: controlan y filtran el tráfico entre redes según reglas configuradas
+- Copias de seguridad: permiten recuperar la información ante pérdidas o ataques; son esenciales en contingencia
+- DLP: previenen fugas de datos controlando qué información puede salir de la organización
+- Verificación de integridad: detectan cambios no autorizados en archivos mediante hashes y alertas
+- Conexiones seguras (VPN): protegen la confidencialidad del tráfico cifrando las comunicaciones
+- IDS: detectan comportamientos anómalos en red o hosts y alertan antes de una intrusión
+- Virtual patching: protege sistemas obsoletos o no actualizables bloqueando amenazas conocidas
+- SIEM: centralizan y correlacionan eventos para identificar actividades sospechosas en tiempo real
 ### Reactivas
-- Funciones de respuesta en EDR/XDR
-- IPS (IDS con capacidad de acción)
-- Planes de contingencia
-- Verificación de integridad reactiva
-- Virtual patching reactivo
+- EDR y XDR: sistemas avanzados que pueden contener, bloquear o eliminar amenazas detectadas usando motores de inferencia muy eficaces
+- IPS: versión reactiva de un IDS; además de detectar, bloquea eventos no autorizados
+- Plan de contingencia: política que agrupa herramientas (copias de seguridad, gestión de incidentes, etc.) para restaurar la actividad de la organización tras un incidente
+- Verificación de integridad: además de prevenir cambios no autorizados, puede restaurar archivos alterados
+- Virtual patching: mecanismo que bloquea amenazas cuando no es posible aplicar parches tradicionales, protegiendo sistemas vulnerables
 ## **Políticas de securización**
 Diferencia entre:
 - Política: obligatoria
@@ -53,15 +53,16 @@ Diferencia entre:
 - Uso de contraseñas
 - Protección del puesto de trabajo
 ### Políticas técnicas:
-- Auditorías
-- Antimalware
-- Control de acceso
-- Copias de seguridad
-- Gestión de logs
-- Respuesta a incidentes
-- Actualizaciones
-- Borrado seguro
-- Teletrabajo
+- Auditoría de sistemas: revisiones periódicas para detectar problemas derivados de la evolución de sistemas y aplicaciones
+- Antimalware: obliga a usar soluciones antivirus/antimalware, ya sean individuales o centralizadas
+- Uso de dispositivos móviles y equipos corporativos: directrices técnicas para proteger el hardware corporativo
+- Control de acceso: define roles y permisos siguiendo modelos como Zero Trust, evitando accesos innecesarios
+- Copias de seguridad: protege la información crítica ante pérdidas, integrándose en la continuidad de negocio
+- Gestión de logs: permite monitorizar alertas y analizar errores o incidentes para responder más rápido
+- Respuesta a incidentes: establece un plan claro y un sistema de escalado para actuar ante incidentes inevitables
+- Actualizaciones: regula cómo desplegar parches y actualizaciones para evitar vulnerabilidades explotables
+- Borrado seguro: define cómo eliminar datos de forma irrecuperable, ya sea por necesidad o cumplimiento legal
+- Teletrabajo: fija medidas para trabajar de forma segura desde fuera de la empresa (VPN, 2FA, etc.)
 ## **Guías de buenas prácticas**
 No son obligatorias, pero sí recomendables.
 Incluyen documentos de:
@@ -83,13 +84,17 @@ Framework ampliamente utilizado.
 Se menciona también el ENS, obligatorio para la administración pública española y proveedores.
 ## **Caracterización de procedimientos, instrucciones y recomendaciones**
 Explica cómo documentar un procedimiento, por ejemplo el de gestión de incidentes:
-- Nombre
-- Propietario
-- Objetivos
-- Entradas y salidas
-- Recursos humanos y técnicos
-- Mecanismos de control
-- Indicadores (clave para medir la eficacia)
+- Nombre del proceso: gestión de incidentes
+- Propietario: CISO (responsable del proceso)
+- Destinatarios: usuarios, personal y clientes
+- Objetivo: recibir incidentes (correo, llamadas, formulario), procesarlos mediante RTIR y obtener indicadores que permitan medir eficacia y eficiencia
+- Entradas: colas de correo, llamadas telefónicas y formularios web
+- Salidas: informes, estadísticas y otros resultados del proceso
+- Recursos humanos: un responsable, tres técnicos de nivel 1 y uno de nivel 2
+- Recursos tecnológicos: RTIR, máquinas de pruebas, sandboxes y paneles Kibana
+- Mecanismos de control: informes de seguimiento y tiempos de respuesta
+- Indicadores: incidentes resueltos por día, tiempo medio de resolución, etc.
+    - Son esenciales, ya que lo que no se mide, no se puede mejora
 ![[modeloCaracterizacion.png]]
 ## **Niveles, escalado y protocolos de atención a incidencias**
 Diferencia entre:
