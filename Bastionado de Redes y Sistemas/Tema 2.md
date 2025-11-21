@@ -7,7 +7,7 @@ Explica la importancia de evaluar riesgos incluso en pequeñas empresas. Se deta
     - Cálculo de riesgo intrínseco
     - Probabilidad de ocurrencia
     - Riesgos no aceptables
-    - Riesgo residual
+    - Riesgo residual = probabilidad x impacto (€)
 - Mitigación del riesgo:
     - Implementar controles
     - Eliminar el riesgo
@@ -66,10 +66,12 @@ Diferencia entre:
 ## **Guías de buenas prácticas**
 No son obligatorias, pero sí recomendables.
 Incluyen documentos de:
-- INCIBE
-- CCN-CERT (Guías STIC)
-- ENISA
-- ECSO
+- Nacionales:
+	- INCIBE
+	- CCN-CERT (Guías STIC)
+- Internacionales:
+	- ENISA
+	- ECSO
 ## **Estándares de securización en sistemas y redes**
 Son normativas técnicas de aplicación repetitiva, útiles para certificaciones:
 ### ISO relevantes:
@@ -80,8 +82,9 @@ Son normativas técnicas de aplicación repetitiva, útiles para certificaciones
 - ISO/IEC 27035 - Gestión de incidentes
 - ISO/IEC 27036 - Seguridad con terceros
 ### NIST CSF
-Framework ampliamente utilizado.
-Se menciona también el ENS, obligatorio para la administración pública española y proveedores.
+- Cybersecurity Framework
+### ENS 
+- Obligatorio para la administración pública española y proveedores
 ## **Caracterización de procedimientos, instrucciones y recomendaciones**
 Explica cómo documentar un procedimiento, por ejemplo el de gestión de incidentes:
 - Nombre del proceso: gestión de incidentes
@@ -104,6 +107,8 @@ Diferencia entre:
 Se detalla:
 - Importancia de clasificar incidentes según criticidad
 - Uso de taxonomías como la de INCIBE
-- Escalado según niveles (ej: Nivel 1 -> incidentes bajos; Nivel 2 -> críticos)
+- Escalado según niveles: 
+	- Nivel 1: incidentes bajos
+	- Nivel 2: incidentes críticos
 - Un incidente puede cerrarse sin resolverse (ej: ransomware sin copia de seguridad)
 - Necesidad de indicadores para mejorar el servicio
