@@ -1,139 +1,77 @@
-## Análisis de riesgos
+## **Análisis de riesgos**
 Explica la importancia de evaluar riesgos incluso en pequeñas empresas. Se detallan las fases:
-- Conocer la situación actual: nivel de madurez, aspectos técnicos, organizativos y normativos.
-- Limitar el alcance: identificar activos críticos y priorizar controles.
+- Conocer la situación actual: nivel de madurez, aspectos técnicos, organizativos y normativos
+- Limitar el alcance: identificar activos críticos y priorizar controles
 - Fases del análisis:
-    - Identificación de activos.
-    - Cálculo de riesgo intrínseco.
-    - Probabilidad de ocurrencia.
-    - Riesgos no aceptables.
-    - Riesgo residual.
+    - Identificación de activos
+    - Cálculo de riesgo intrínseco
+    - Probabilidad de ocurrencia
+    - Riesgos no aceptables
+    - Riesgo residual
 - Mitigación del riesgo:
-    - Implementar controles.
-    - Eliminar el riesgo.
-    - Transferirlo (p.ej., ciberseguros).
-- El análisis debe ser continuo y medible, usando indicadores.
-## Economía circular
+    - Implementar controles
+    - Eliminar el riesgo
+    - Transferirlo (p.ej., ciberseguros)
+- El análisis debe ser continuo y medible, usando indicadores
+## **Principios de la economía circular**
 Se expone la necesidad de pasar del modelo lineal a uno circular en la industria 4.0:
-- Convertir residuos en recursos.
-- Reutilizar, reparar y reciclar productos.
-- Aprovechamiento energético.
-- Sustituir combustibles fósiles.
-- Rediseñar procesos productivos para reducir impacto ambiental.
-- En TI se busca evitar la obsolescencia programada y fomentar productos sostenibles.
-## **3. Medidas técnicas de seguridad**
-
+- Convertir residuos en recursos
+- Reutilizar, reparar y reciclar productos
+- Aprovechamiento energético
+- Sustituir combustibles fósiles
+- Rediseñar procesos productivos para reducir impacto ambiental
+- En TI se busca evitar la obsolescencia programada y fomentar productos sostenibles
+## **Medidas técnicas de seguridad**
 Se dividen en:
-
-### 🔹 **Preventivas**
-
-- Antivirus / antimalware.
-    
-- EDR / XDR.
-    
-- Firewalls.
-    
-- Copias de seguridad.
-    
-- DLP.
-    
-- Verificación de integridad.
-    
-- VPNs y comunicaciones seguras.
-    
-- IDS.
-    
-- Virtual patching.
-    
-- SIEM.
-    
-
-### 🔹 **Reactivas**
-
-- Funciones de respuesta en EDR/XDR.
-    
-- IPS (IDS con capacidad de acción).
-    
-- Planes de contingencia.
-    
-- Verificación de integridad reactiva.
-    
-- Virtual patching reactivo.
-    
-
----
-
-## **4. Políticas de securización**
-
+### Preventivas
+- Antivirus/antimalware
+- EDR/XDR
+- Firewalls
+- Copias de seguridad
+- DLP
+- Verificación de integridad
+- VPNs y comunicaciones seguras
+- IDS
+- Virtual patching
+- SIEM
+### Reactivas
+- Funciones de respuesta en EDR/XDR
+- IPS (IDS con capacidad de acción)
+- Planes de contingencia
+- Verificación de integridad reactiva
+- Virtual patching reactivo
+## **Políticas de securización**
 Diferencia entre:
-
-- **Política**: obligatoria.
-    
-- **Buena práctica**: recomendada.
-    
-
-### 📁 Políticas organizativas:
-
-- Continuidad de negocio.
-    
-- Cumplimiento legal (RGPD, LOPDGDD).
-    
-- Relación con proveedores.
-    
-- Concienciación y formación.
-    
-- Uso del correo y dispositivos corporativos.
-    
-- Uso de contraseñas.
-    
-- Protección del puesto de trabajo.
-    
-
-### 🖥️ Políticas técnicas:
-
-- Auditorías.
-    
-- Antimalware.
-    
-- Control de acceso.
-    
-- Copias de seguridad.
-    
-- Gestión de logs.
-    
-- Respuesta a incidentes.
-    
-- Actualizaciones.
-    
-- Borrado seguro.
-    
-- Teletrabajo.
-    
-
----
-
-## **5. Guías de buenas prácticas**
-
+- Política: obligatoria
+- Buena práctica: recomendada
+### Políticas organizativas:
+- Continuidad de negocio
+- Cumplimiento legal (RGPD, LOPDGDD)
+- Relación con proveedores
+- Concienciación y formación
+- Uso del correo y dispositivos corporativos
+- Uso de contraseñas
+- Protección del puesto de trabajo
+### Políticas técnicas:
+- Auditorías
+- Antimalware
+- Control de acceso
+- Copias de seguridad
+- Gestión de logs
+- Respuesta a incidentes
+- Actualizaciones
+- Borrado seguro
+- Teletrabajo
+## **Guías de buenas prácticas**
 No son obligatorias, pero sí recomendables.
-
 Incluyen documentos de:
-
 - INCIBE
-    
 - CCN-CERT (Guías STIC)
-    
 - ENISA
-    
 - ECSO
-    
-
----
-
-## **6. Estándares de seguridad**
-
+## **Estándares de seguridad**
 Son normativas técnicas de aplicación repetitiva, útiles para certificaciones:
-
-### 📌 ISO relevantes:
+### ISO relevantes:
 
 - ISO/IEC 27000 – SGSI.
     
