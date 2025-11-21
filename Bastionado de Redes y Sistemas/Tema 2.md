@@ -32,6 +32,9 @@ Se dividen en:
 - Verificación de integridad: detectan cambios no autorizados en archivos mediante hashes y alertas
 - Conexiones seguras (VPN): protegen la confidencialidad del tráfico cifrando las comunicaciones
 - IDS: detectan comportamientos anómalos en red o hosts y alertan antes de una intrusión
+	- NIDS: monitorean el tráfico de red en busca de patrones sospechosos
+		- Zeek: sistema de monitoreo de red centrado en el análisis profundo del tráfico; genera logs detallados para detectar comportamientos anómalos
+		- Snort/Suricata: IDS basados en firmas que detectan ataques conocidos
 - Virtual patching: protege sistemas obsoletos o no actualizables bloqueando amenazas conocidas
 - SIEM: centralizan y correlacionan eventos para identificar actividades sospechosas en tiempo real
 ### Reactivas
