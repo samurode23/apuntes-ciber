@@ -69,71 +69,36 @@ Incluyen documentos de:
 - CCN-CERT (Guías STIC)
 - ENISA
 - ECSO
-## **Estándares de seguridad**
+## **Estándares de securización en sistemas y redes**
 Son normativas técnicas de aplicación repetitiva, útiles para certificaciones:
 ### ISO relevantes:
-
-- ISO/IEC 27000 – SGSI.
-    
-- ISO/IEC 27032 – Ciberseguridad.
-    
-- ISO/IEC 27033 – Seguridad de redes.
-    
-- ISO/IEC 27034 – Seguridad en aplicaciones.
-    
-- ISO/IEC 27035 – Gestión de incidentes.
-    
-- ISO/IEC 27036 – Seguridad con terceros.
-    
-
-### 📌 NIST CSF
-
+- ISO/IEC 27000 - SGSI
+- ISO/IEC 27032 - Ciberseguridad
+- ISO/IEC 27033 - Seguridad de redes
+- ISO/IEC 27034 - Seguridad en aplicaciones
+- ISO/IEC 27035 - Gestión de incidentes
+- ISO/IEC 27036 - Seguridad con terceros
+### NIST CSF
 Framework ampliamente utilizado.
-
-Se menciona también el **ENS**, obligatorio para la administración pública española y proveedores.
-
----
-
-## **7. Caracterización de procedimientos**
-
+Se menciona también el ENS, obligatorio para la administración pública española y proveedores.
+## **Caracterización de procedimientos, instrucciones y recomendaciones**
 Explica cómo documentar un procedimiento, por ejemplo el de gestión de incidentes:
-
-- Nombre.
-    
-- Propietario.
-    
-- Objetivos.
-    
-- Entradas y salidas.
-    
-- Recursos humanos y técnicos.
-    
-- Mecanismos de control.
-    
-- Indicadores (clave para medir la eficacia).
-    
-
----
-
-## **8. Niveles, escalado y gestión de incidencias**
-
+- Nombre
+- Propietario
+- Objetivos
+- Entradas y salidas
+- Recursos humanos y técnicos
+- Mecanismos de control
+- Indicadores (clave para medir la eficacia)
+![[modeloCaracterizacion.png]]
+## **Niveles, escalado y protocolos de atención a incidencias**
 Diferencia entre:
-
-- **Evento**
-    
-- **Evento de seguridad**
-    
-- **Incidente de seguridad**
-    
-
+- Evento: cualquier cambio significativo en un sistema TIC, puede ser solo una notificación o alerta
+- Evento de seguridad: evento que indica que se ha incumplido una política o regla de seguridad
+- Incidente de seguridad: uno o varios eventos de seguridad que suponen un riesgo real para los sistemas o la información de la organización
 Se detalla:
-
-- Importancia de clasificar incidentes según criticidad.
-    
-- Uso de taxonomías como la de INCIBE.
-    
-- Escalado según niveles (ej: Nivel 1 → incidentes bajos; Nivel 2 → críticos).
-    
-- Un incidente puede cerrarse sin resolverse (ej: ransomware sin copia de seguridad).
-    
-- Necesidad de indicadores para mejorar el servicio.
+- Importancia de clasificar incidentes según criticidad
+- Uso de taxonomías como la de INCIBE
+- Escalado según niveles (ej: Nivel 1 -> incidentes bajos; Nivel 2 -> críticos)
+- Un incidente puede cerrarse sin resolverse (ej: ransomware sin copia de seguridad)
+- Necesidad de indicadores para mejorar el servicio
