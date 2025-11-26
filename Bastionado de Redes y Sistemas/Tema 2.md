@@ -16,7 +16,7 @@ Cifrar:
 	- Escítala
 		- Enigma
 - Algoritmo conocido pero clave oculta: 
-	- Simétrica: se envia el mensaje con la clave secreta y al recibirlo, si tienes la clave, sacas el mensaje
+	- Simétrica: se envía el mensaje con la clave secreta y al recibirlo, si tienes la clave, sacas el mensaje
 		- Es muy rápido
 		- AES
 	- Asimétrico: cada uno tiene una clave privada y una pública, envías el mensaje con la publica del otro y ya el otro con su privada saca el mensaje
