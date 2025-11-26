@@ -39,16 +39,30 @@
             "id": "d87c3b698e46439f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnesto/ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnestoCartel1.pdf"
+                "file": "Bastionado de Redes y Sistemas/Tema 2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnestoCartel1"
+              "icon": "lucide-file",
+              "title": "Tema 2"
+            }
+          },
+          {
+            "id": "a6e399e357ab2669",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.10.6"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -194,8 +208,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "d87c3b698e46439f",
+  "active": "a6e399e357ab2669",
   "lastOpenFiles": [
+    "ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnesto/ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnestoCartel1.pdf",
     "Bastionado de Redes y Sistemas/Tema 2.md",
     "Bastionado de Redes y Sistemas/Tema 1.md",
     "Bastionado de Redes y Sistemas/img/modeloCaracterizacion.png",
