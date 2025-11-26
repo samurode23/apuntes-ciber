@@ -39,14 +39,12 @@
             "id": "d87c3b698e46439f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Bastionado de Redes y Sistemas/Tema 2.md",
-                "mode": "source",
-                "source": false
+                "file": "ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnesto/ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnestoCartel1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Tema 2"
+              "icon": "lucide-file-text",
+              "title": "ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnestoCartel1"
             }
           }
         ],
@@ -198,9 +196,9 @@
   },
   "active": "d87c3b698e46439f",
   "lastOpenFiles": [
+    "Bastionado de Redes y Sistemas/Tema 2.md",
     "Bastionado de Redes y Sistemas/Tema 1.md",
     "Bastionado de Redes y Sistemas/img/modeloCaracterizacion.png",
-    "Bastionado de Redes y Sistemas/Tema 2.md",
     "Bastionado de Redes y Sistemas/img/portadaRepaso.webp",
     "Bastionado de Redes y Sistemas/img/planDirector.png",
     "Bastionado de Redes y Sistemas/img/esquemaSeguridad.png",
