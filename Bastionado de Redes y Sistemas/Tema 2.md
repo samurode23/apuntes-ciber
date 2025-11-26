@@ -22,5 +22,5 @@ Cifrar:
 	- Asimétrico: cada uno tiene una clave privada y una pública, envías el mensaje con la publica del otro y ya el otro con su privada saca el mensaje
 		- Es muy lento
 		- RSA
-	- Híbrida:
-		- 
+	- Híbrido: se usa el cifrado simétrico para cifrar la clave asimétrica
+		- Es medio rápido
