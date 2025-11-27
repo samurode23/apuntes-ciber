@@ -5,7 +5,7 @@ Hash:
 	- Único: no tiene colisiones
 	- Unidireccional: A da B pero con B no sacas A
 	- Pequeños cambios en input, grandes cambios en output
-	- Independientemente del tamaño del input, siempre tiene el mismo tamaño el output
+	- Independientemente del tamaño del input, siempre tiene el mismo tamaño el output -> depende del algoritmo que usemos (md5, SHA1, SHA256, SHA512,...)
 - ¿Para que sirve? 
 	- Verifica la integridad y autenticidad del archivo 
 	- Antivirus/Firewall/IDS/IPS: mediante el hash, compara ese hash con los hash de virus en una base de datos
@@ -24,3 +24,4 @@ Cifrar:
 		- RSA
 	- Híbrido: se usa el cifrado simétrico para cifrar la clave asimétrica
 		- Es medio rápido
+Firma
