@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes y Sistemas/Tema 2.md",
+                "file": "Bastionado de Redes y Sistemas/Tema 1.2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tema 2"
+              "title": "Tema 1.2"
             }
           }
         ],
@@ -212,9 +212,9 @@
   },
   "active": "a6e399e357ab2669",
   "lastOpenFiles": [
+    "Bastionado de Redes y Sistemas/Tema 2.md",
     "ICP1.4U1-RomerodelosReyesSamuel-SaqueteRiosErnesto.pdf",
     "Bastionado de Redes y Sistemas/Tema 1.2.md",
-    "Bastionado de Redes y Sistemas/Tema 2.md",
     "ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnesto.zip",
     "ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnesto/ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnestoInforme.pdf",
     "Bastionado de Redes y Sistemas/Tema 1.1.md",
@@ -238,7 +238,6 @@
     "Puesta en Producción Segura/Tema 1.md",
     "ejemplo1/index.php",
     "index.php",
-    "ejemplo1",
     "Normativas de Ciberseguridad/Tema 1.md",
     "Incidentes de Ciberseguridad/Tema 1.md",
     "Bastionado de Redes y Sistemas/img/bastionado-de-redes-y-sistemas-1.webp"
