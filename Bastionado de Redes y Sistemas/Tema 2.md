@@ -21,7 +21,8 @@ Cifrar:
 		- AES
 	- Asimétrico: cada uno tiene una clave privada y una pública, envías el mensaje con la publica del otro y ya el otro con su privada saca el mensaje
 		- Es muy lento
-		- RSA (Ronald Rives, )
-	- Híbrido: se usa el cifrado simétrico para cifrar la clave asimétrica
+		- RSA (Ronald Rivest, Adi Shamir y Leonard Adleman)
+	- Híbrido: con la clave pública, se cifra la clave privada para enviarla
 		- Es medio rápido
-Firma
+Firma digital
+- A un archivo le haces el hash (resumen) y eso lo firmas con tu clave pública (obtienes el resumen cifrado) y envías el archivo con el resumen cifrado. El receptor le hace el hash (resumen) al archivo obtenido y lo compara descifrando el resumen cifrado que le enviaron
