@@ -1,4 +1,4 @@
-Hash: 
+## Hash: 
 - ¿Qué es? Función matemática con un algoritmo (resumen en n bits y hexadecimal)
 - Propiedades: 
 	- Finalista: misma entrada -> misma salida
@@ -10,7 +10,7 @@ Hash:
 	- Verifica la integridad y autenticidad del archivo 
 	- Antivirus/Firewall/IDS/IPS: mediante el hash, compara ese hash con los hash de virus en una base de datos
 	- Passwords: compara el hash guardado con el hash de la contraseña introducida
-Cifrar:
+## Cifrar:
 - Algoritmo oculto: 
 	- César
 	- Escítala
@@ -24,5 +24,5 @@ Cifrar:
 		- RSA (Ronald Rivest, Adi Shamir y Leonard Adleman)
 	- Híbrido: con la clave pública, se cifra la clave privada para enviarla
 		- Es medio rápido
-Firma digital
+## Firma digital
 - A un archivo le haces el hash (resumen) y eso lo firmas con tu clave pública (obtienes el resumen cifrado) y envías el archivo con el resumen cifrado. El receptor le hace el hash (resumen) al archivo obtenido y lo compara descifrando el resumen cifrado que le enviaron
