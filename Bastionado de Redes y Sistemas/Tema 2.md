@@ -1,7 +1,7 @@
 Hash: 
 - ¿Qué es? Función matemática con un algoritmo (resumen en n bits y hexadecimal)
 - Propiedades: 
-	- Finalista: una entrada -> una salida
+	- Finalista: misma entrada -> misma salida
 	- Único: no tiene colisiones
 	- Unidireccional: A da B pero con B no sacas A
 	- Pequeños cambios en input, grandes cambios en output
@@ -21,7 +21,7 @@ Cifrar:
 		- AES
 	- Asimétrico: cada uno tiene una clave privada y una pública, envías el mensaje con la publica del otro y ya el otro con su privada saca el mensaje
 		- Es muy lento
-		- RSA
+		- RSA (Ronald Rives, )
 	- Híbrido: se usa el cifrado simétrico para cifrar la clave asimétrica
 		- Es medio rápido
 Firma
