@@ -35,5 +35,5 @@ start live
 
 n
 p
-
+guardar usuario::hashpassword
 
