@@ -20,4 +20,7 @@
 ## __Comandos en Volatility
 imageinfo te sale el OS exacto
 
-
+## Volatility
+- Actividad reciente
+- extension mismatch defector (check all)
+- keyword search (gmail o palabras)
