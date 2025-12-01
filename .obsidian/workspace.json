@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Tema 1.2"
             }
+          },
+          {
+            "id": "d753b9976eeffe7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bastionado de Redes y Sistemas/Tema 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tema 2"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -210,12 +224,13 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "a6e399e357ab2669",
+  "active": "d753b9976eeffe7b",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Bastionado de Redes y Sistemas/Tema 1.2.md",
     "Bastionado de Redes y Sistemas/Tema 2.md",
     "Untitled mindmap.md",
     "Bastionado de Redes y Sistemas/Tema 1.1.md",
-    "Bastionado de Redes y Sistemas/Tema 1.2.md",
     "ICP1.4U1-RomerodelosReyesSamuel-SaqueteRiosErnesto.pdf",
     "ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnesto.zip",
     "ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnesto/ICP1.3U1-RomerodelosReyesSamuel-SaqueteRiosErnestoInforme.pdf",
@@ -227,7 +242,6 @@
     "Bastionado de Redes y Sistemas/img/capasDefenda.png",
     "BRST1.6T1-RomerodelosReyesSamuel.pdf",
     "Bastionado de Redes y Sistemas/Repaso.md",
-    "conflict-files-obsidian-git.md",
     "Análisis Forense Informático/Tema 1.md",
     "AFIT2.2T2-RomerodelosReyesSamuel.pdf",
     "1.png",
