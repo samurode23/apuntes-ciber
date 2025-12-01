@@ -24,3 +24,12 @@ imageinfo te sale el OS exacto
 - Actividad reciente
 - extension mismatch defector (check all)
 - keyword search (gmail o palabras)
+
+caine (el disco destino ponerlo en escritura/lectura)
+
+console nonv
+
+esc todo el rato
+
+start live
+
