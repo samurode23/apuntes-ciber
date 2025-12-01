@@ -33,3 +33,7 @@ esc todo el rato
 
 start live
 
+n
+p
+
+
