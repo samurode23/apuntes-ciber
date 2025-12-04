@@ -27,7 +27,7 @@
 ## Firma digital
 - A un archivo le haces el hash (resumen) y eso lo firmas con tu clave pública (obtienes el resumen cifrado) y envías el archivo con el resumen cifrado. El receptor le hace el hash (resumen) al archivo obtenido y lo compara descifrando el resumen cifrado que le enviaron
 
-Protocolos correo:
+## Protocolos correo
 - SMTP: enviar y transmitir correos electrónicos desde un cliente (como Outlook o Gmail) al servidor y entre servidores
 - IMAP: acceder y sincronizar los correos electrónicos almacenados en el servidor desde múltiples dispositivos
 - POP3: descargar mensajes desde el servidor y guardarlos de forma local (no puedes enviarlos)
