@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Forense Informático/Tema 1.md",
+                "file": "Bastionado de Redes y Sistemas/Tema 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tema 1"
+              "title": "Tema 2"
             }
           }
         ],
@@ -226,6 +226,7 @@
   },
   "active": "d753b9976eeffe7b",
   "lastOpenFiles": [
+    "Análisis Forense Informático/Tema 1.md",
     "Bastionado de Redes y Sistemas/Tema 2.md",
     "conflict-files-obsidian-git.md",
     "Bastionado de Redes y Sistemas/Tema 1.2.md",
@@ -242,7 +243,6 @@
     "Bastionado de Redes y Sistemas/img/capasDefenda.png",
     "BRST1.6T1-RomerodelosReyesSamuel.pdf",
     "Bastionado de Redes y Sistemas/Repaso.md",
-    "Análisis Forense Informático/Tema 1.md",
     "AFIT2.2T2-RomerodelosReyesSamuel.pdf",
     "1.png",
     "16.png",
