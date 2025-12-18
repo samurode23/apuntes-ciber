@@ -25,7 +25,8 @@ Se expone la necesidad de pasar del modelo lineal a uno circular en la industria
 Se dividen en:
 ### Preventivas
 - Antimalware: soluciones básicas (antivirus) que hoy incluyen funciones adicionales como cortafuegos
-- EDR y XDR: versiones avanzadas del antimalware con capacidades predictivas y reactivas basadas en IA
+- SIEM: centralizan y correlacionan eventos para identificar actividades sospechosas en tiempo real
+- EDR y XDR: versiones avanzadas del antimalware con capacidades predictivas y reactivas basadas en IA (un SIEM pero que puedes reaccionar)
 - Firewalls: controlan y filtran el tráfico entre redes según reglas configuradas
 - Copias de seguridad: permiten recuperar la información ante pérdidas o ataques; son esenciales en contingencia
 - DLP: previenen fugas de datos controlando qué información puede salir de la organización
@@ -36,7 +37,6 @@ Se dividen en:
 		- Zeek: sistema de monitoreo de red centrado en el análisis profundo del tráfico; genera logs detallados para detectar comportamientos anómalos
 		- Snort/Suricata: IDS basados en firmas que detectan ataques conocidos
 - Virtual patching: protege sistemas obsoletos o no actualizables bloqueando amenazas conocidas
-- SIEM: centralizan y correlacionan eventos para identificar actividades sospechosas en tiempo real
 ### Reactivas
 - EDR y XDR: sistemas avanzados que pueden contener, bloquear o eliminar amenazas detectadas usando motores de inferencia muy eficaces
 - IPS: versión reactiva de un IDS; además de detectar, bloquea eventos no autorizados
