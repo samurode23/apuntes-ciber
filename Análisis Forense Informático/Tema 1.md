@@ -17,23 +17,13 @@
 - SRUM (SRUBD.dat)
 - Jump list / LNK
 
-## __Comandos en Volatility
-imageinfo te sale el OS exacto
-
 ## Volatility
 - Actividad reciente
 - extension mismatch defector (check all)
 - keyword search (gmail o palabras)
-
 caine (el disco destino ponerlo en escritura/lectura)
-
 console nonv
-
 esc todo el rato
-
 start live
-
-n
-p
 guardar usuario::hashpassword
 
