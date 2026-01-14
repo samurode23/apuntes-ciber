@@ -76,9 +76,21 @@
               "icon": "lucide-file",
               "title": "Tema 1"
             }
+          },
+          {
+            "id": "0aaf66f8a21290f3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.11.4"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -224,7 +236,7 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "d753b9976eeffe7b",
+  "active": "0aaf66f8a21290f3",
   "lastOpenFiles": [
     "Bastionado de Redes y Sistemas/Tema 1.2.md",
     "Bastionado de Redes y Sistemas/Tema 1.1.md",
