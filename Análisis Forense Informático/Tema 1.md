@@ -165,7 +165,140 @@ Segundo analizador Android
 
 ## 2. Regripper
 ![[Captura de pantalla 2026-01-15 013857.png]]
+### 2.1. Ejecución de programas y evidencias de uso
+Estos te dicen **qué se ejecutó**, **cuándo**, o **qué apps se usaron**:
+- userassist/userassist_tln: programas ejecutados desde el GUI (explorador/menú inicio), con contadores y timestamps
+- bam/ bam_tln: Background Activity Moderator: rastro de ejecución/uso de apps por usuario (muy útil en Win10/11)
+- appcompatcache/ shimcache (+ `_tln`): “ShimCache” del SYSTEM hive: rastros de ejecución/presencia de binarios (ojo: no siempre implica ejecución real)
+- amcache/amcache_tln: inventario de ejecutables instalados/ejecutados (hashes, rutas, primera vez visto)
+- recentapps (+ _tln): apps recientes usadas
+- muicache: lista de ejecutables vistos por el sistema (nombres amigables)
+### 2.2. Persistencia/Autostart (para malware y triage)
+Plugins que buscan **arranques automáticos** o técnicas de persistencia:
+- run, run_tln: claves Run/RunOnce (HKLM/HKCU)
+- cmdproc: Command Processor\AutoRun (persistencia por CMD)
+- appinitdlls: AppInit_DLLs (inyección DLL clásica)
+- appcertdlls: AppCertDlls (carga de DLLs al ejecutar apps)
+- imagefile: Image File Execution Options (debugger hijack, etc.)
+- netsh: DLLs helper de NetSH (persistencia/abuso)
+- printmon: Print Monitors (persistencia vía spooler)
+- tasks/taskcache (+ `_tln`): tareas programadas (root o lista)
+- termserv, rdpport: configuración de Terminal Services/RDP
+- uacbypass: señales/configs típicas para bypass UAC
+### 2.3. Actividad del usuario (MRUs, recientes, historial “humano”)
 
+Esto es oro para reconstruir qué hizo el usuario:
+
+- **`runmru`**: comandos ejecutados en “Ejecutar…” (Win+R).
+    
+- **`typedpaths`**: rutas tecleadas en Explorer.
+    
+- **`typedurls` / `typedurlstime`**: URLs escritas en IE/Edge legado (con tiempos en algunos casos).
+    
+- **`recentdocs`** (+ `_tln`)**:** documentos abiertos recientemente (por extensión).
+    
+- **`comdlg32`**: “Open/Save As” dialogs: archivos abiertos/guardados desde apps.
+    
+- **`wordwheelquery`**: búsquedas del cuadro de búsqueda (Explorer/Start).
+    
+- **`jumplistdata`**: rastros de Jump Lists (lo que se abrió anclado/reciente).
+    
+- **`mmc`**: consolas MMC usadas recientemente.
+    
+- **`msoffice`**: MRUs y paths de Office (Word/Excel/PowerPoint, según versión)
+- sevenzip, winrar, winzip: historiales de compresión/extracción
+## 4) Dispositivos USB y hardware conectado
+
+Para “¿conectó un USB?” y cuándo:
+
+- **`usbstor`**: info de dispositivos USB storage.
+    
+- **`usbdevices`**: Enum\USB y WPD (más amplio).
+    
+- **`usb`**: resumen USB.
+    
+- **`mountdev` / `mountdev2`**: MountedDevices (letras ↔ volúmenes).
+    
+- **`devclass`**: DeviceClasses (USB y más; conexiones).
+    
+- **`mp2` (MountPoints2)**: qué unidades/removibles vio el usuario (HKCU).
+    
+
+➡️ Esto es típico en casos de exfiltración por pendrive.
+
+---
+
+## 5) Red, Wi-Fi, IPs, perfiles de red
+
+Para “¿a qué redes se conectó?”:
+
+- **`networklist` (+ `_tln`)**: perfiles de red (SSID/nombre red, tipo, timestamps).
+    
+- **`ips`**: IPs, DHCP, dominios.
+    
+- **`nic2` / `networkcards`**: tarjetas de red.
+    
+- **`routes`**: rutas persistentes.
+    
+- **`ssid`**: info SSID (depende servicio/versión).
+    
+
+---
+
+## 6) Seguridad / políticas / auditoría
+
+Para postura defensiva o cambios raros:
+
+- **`auditpol`**: política de auditoría desde SECURITY hive.
+    
+- **`defender`**: settings de Windows Defender.
+    
+- **`pslogging`**: si PowerShell logging está habilitado (ScriptBlock, Module, Transcription…).
+    
+- **`execpolicy`**: ExecutionPolicy de PowerShell.
+    
+- **`disableeventlog`**: checks típicos de manipulación/deshabilitado de logs.
+    
+- **`disablelastaccess`**: LastAccessUpdate (impacta a timelines NTFS).
+    
+- **`cred`**: `UseLogonCredential` (Wdigest) — relevante para robo creds.
+    
+
+---
+
+## 7) Cuentas y logon
+
+- **`samparse`** (+ `_tln`)**:** usuarios/grupos locales (SAM).
+    
+- **`lastloggedon`**: `LogonUI` last logged on users.
+    
+- **`logonstats`**: stats de logon en NTUSER.
+    
+- **`profilelist`**: perfiles de usuario (SID ↔ ruta).
+    
+
+---
+
+## 8) Shellbags y carpetas (movimiento por el Explorador)
+
+- **`shellbags` (+ `_tln`)**: evidencia de carpetas vistas/navegadas incluso si ya no existen.
+    
+- **`shellfolders`**: rutas de carpetas especiales.
+    
+- **`allowedenum`**: carpetas especiales/hide.
+    
+- **`thispcpolicy`**: políticas “Este equipo” (ocultar/mostrar).
+    
+
+---
+
+## 9) “Anti-forense” / hallazgos raros en el hive
+
+- **`del` / `slack` / `sizes` / `baseline` / `null` / `rlo`**: buscan claves borradas, slack space, tamaños anómalos, nombres con caracteres raros (null, RLO).
+    
+- **`fileless` / `findexes`**: hunting de malware fileless o binarios embebidos (busca “MZ” en datos binarios).
+    
+- **`inprocserver` / `scriptleturl` / `clsid`**: hunting en COM/CLSID para secuestros de clases.
 ## 3. Archivos importantes
 ### 3.1. hiberfil.sys
 ¿Qué es?  
