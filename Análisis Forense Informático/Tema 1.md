@@ -235,6 +235,7 @@ Para postura defensiva o cambios raros:
 - del/slack/sizes/baseline/null/rlo: buscan claves borradas, slack space, tamaños anómalos, nombres con caracteres raros (null, RLO)
 - fileless/findexes: hunting de malware fileless o binarios embebidos (busca “MZ” en datos binarios)
 - inprocserver/scriptleturl/clsid: hunting en COM/CLSID para secuestros de clases
+
 ## 3. Archivos importantes
 ### 3.1. hiberfil.sys
 ¿Qué es?  
@@ -382,6 +383,7 @@ C:\Users\usuario\
 - Acciones frecuentes del usuario
 Ideales para:
 - Reconstruir actividad reciente del usuario
+
 ##  4. Volatility
 ### 4.1. Identificación del sistema
 #### 4.1.1 imageinfo (Volatility 2)
