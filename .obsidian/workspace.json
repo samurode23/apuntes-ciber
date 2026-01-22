@@ -216,9 +216,21 @@
               "icon": "lucide-file",
               "title": "Tema 2"
             }
+          },
+          {
+            "id": "182356a1779d9e94",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.11.5"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -364,7 +376,7 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "3c4002f4d8cadb30",
+  "active": "182356a1779d9e94",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Análisis Forense Informático/Tema 2.md",
