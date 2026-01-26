@@ -1,4 +1,5 @@
 ## 1. Autopsy
+Get-FileHash C:\Users\Alumno\Downloads\ejemplo.iso -Algorithm MD5
 ### 1.1. Recent Activity
 Reconstruye la actividad reciente del usuario
 Extrae:
