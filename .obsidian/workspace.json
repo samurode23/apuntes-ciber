@@ -221,12 +221,14 @@
             "id": "182356a1779d9e94",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.5"
+                "file": "Bastionado de Redes y Sistemas/Tema 2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Registro de cambios 1.11.5"
+              "icon": "lucide-file",
+              "title": "Tema 2"
             }
           }
         ],
