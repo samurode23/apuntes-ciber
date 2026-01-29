@@ -1,4 +1,4 @@
-Linssid (cambiar canales de los wifi para que no coincidan)
+Linssid (cambiar canales de los wifi para que no coincidan en ubuntu)
 ## Cracking Wifi
 - sudo airmon-ng start wlan0
 - sudo airodump-ng wlan0mon -w ./scan --manufacturer --wps --band abg
@@ -32,9 +32,12 @@ Linssid (cambiar canales de los wifi para que no coincidan)
 - http && ip.dst == 192.168.10.1 (filtro en wireshark)
 - En HTML, sale el usuario y contraseña
 ## WPS
-Es un **método para conectar dispositivos a una red Wi-Fi fácilmente**, sin escribir la contraseña larga. Puede ser mediante un botón, PIN o NFC.
+Es un método para conectar dispositivos a una red Wi-Fi fácilmente, sin escribir la contraseña larga. Puede ser mediante un botón, PIN o NFC.
 
 ## Canal
-
+El canal Wi-Fi es el camino por el que viaja la señal.  
+Si muchos routers usan el mismo canal, **se estorban** y el Wi-Fi va más lento.
+- 2.4 GHz: usa canales **1, 6 o 11** (no se solapan) 
+- 5 GHz: hay más canales y menos interferencias
 
 
