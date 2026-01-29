@@ -12,8 +12,17 @@ Linssid (cambiar canales de los wifi para que no coincidan)
         key_mgmt=NONE
         scan_ssid=1
 	 }
-- wpa_supplicant -Dnl80211 -iwlan1 -c free.conf
-- 
+- wpa_supplicant -Dnl80211 -iwlan1 -c free.conf 
+- dhclient wlan1 -v (en otra terminal)
+- airodump-ng wlan0mon -w ./scan6 --manufacturer --wps -c6
+- creamos open.conf y ponemos:
+	- network={
+        ssid="wifi-guest"
+        key_mgmt=NONE
+        scan_ssid=1
+	 }
+- wpa_supplicant -Dnl80211 -iwlan2 -c open.conf
+- dhclient wlan2 -v
 ## WPS
 
 
