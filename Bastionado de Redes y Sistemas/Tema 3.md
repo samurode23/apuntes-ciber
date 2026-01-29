@@ -29,9 +29,10 @@ Linssid (cambiar canales de los wifi para que no coincidan)
 - ip link set wlan2 up
 - wpa_supplicant -Dnl80211 -i wlan2 -c open.conf
 - dhclient wlan2 -v (en otra terminal)
-- http && ip.dst
+- http && ip.dst == 192.168.10.1 (filtro en wireshark)
+- En HTML, sale el usuario y contraseña
 ## WPS
-
+Es un **método para conectar dispositivos a una red Wi-Fi fácilmente**, sin escribir la contraseña larga. Puede ser mediante un botón, PIN o NFC.
 
 ## Canal
 
