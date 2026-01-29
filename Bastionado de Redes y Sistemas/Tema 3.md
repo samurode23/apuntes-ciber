@@ -22,7 +22,12 @@ Linssid (cambiar canales de los wifi para que no coincidan)
         scan_ssid=1
 	 }
 - wpa_supplicant -Dnl80211 -iwlan2 -c open.conf
-- dhclient wlan2 -v
+- dhclient wlan2 -v (en otra terminal)
+- airodump-ng wlan0mon -w ../wifi/scan6 --manufacturer --wps -c6
+- ip link set wlan2 down
+- macchanger -m B0:72:BF:44:B0:49  wlan2
+- ip link set wlan2 up
+- 
 ## WPS
 
 
