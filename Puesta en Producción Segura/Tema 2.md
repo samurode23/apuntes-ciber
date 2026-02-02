@@ -5,5 +5,9 @@ git checkout -f [nombre] (mueve la rama)
 git commit (crea un nuevo hijo de la rama anteriormente seleccionada con checkout)
 git merge [nombre] (crea un nuevo hijo de la rama seleccionada con checkout anteriormente y la rama del nombre que le hemos pasado)
 git rebase [nombre] (en la rama del nombre, creas un hijo del seleccionmado anteriormente)
-^ es para ir atrás
-git checkout HEAD~3 (para ir 3 niveles atrás el HEAD)
+git checkout C6
+git branch -f main
+git checkout HEAD~3
+git branch -f bugFix C0
+git reset HEAD^ (vuelve la rama seleccionada a lo anterior)
+git revert 
