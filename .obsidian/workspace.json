@@ -223,12 +223,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Puesta en Producción Segura/Tema 2.md",
+                "file": "Hacking Ético/Tema 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tema 2"
+              "title": "Tema 1"
             }
           }
         ],
@@ -380,6 +380,7 @@
   },
   "active": "182356a1779d9e94",
   "lastOpenFiles": [
+    "Puesta en Producción Segura/Tema 2.md",
     "Bastionado de Redes y Sistemas/Tema 3.md",
     "Análisis Forense Informático/Tema 2.md",
     "Bastionado de Redes y Sistemas/Tema 2.md",
@@ -407,7 +408,6 @@
     "tipotest.txt",
     "Hacking Ético/Prácticas.md",
     "Sin nombre",
-    "Puesta en Producción Segura/Tema 2.md",
     "ejemplo1/index.php",
     "Normativas de Ciberseguridad/Tema 1.md",
     "Incidentes de Ciberseguridad/Tema 1.md",
