@@ -11,3 +11,4 @@ git checkout HEAD~3
 git branch -f bugFix C0
 git reset HEAD^ (vuelve la rama seleccionada a lo anterior y elimina el commit en el que esábamos)
 git revert C2 (creas un nuevo commit de algo anterior pero no elimina en el que estás)
+git cherry-pick commit1 commit2 (copia commit )

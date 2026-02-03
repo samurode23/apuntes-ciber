@@ -223,12 +223,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Tema 4.md",
+                "file": "Puesta en Producción Segura/Tema 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tema 4"
+              "title": "Tema 2"
             }
           }
         ],
@@ -380,6 +380,8 @@
   },
   "active": "182356a1779d9e94",
   "lastOpenFiles": [
+    "Hacking Ético/Prácticas.md",
+    "Hacking Ético/Tema 4.md",
     "Puesta en Producción Segura/Tema 2.md",
     "Bastionado de Redes y Sistemas/Tema 3.md",
     "Análisis Forense Informático/Tema 2.md",
@@ -404,9 +406,7 @@
     "AFIT2.2T2-RomerodelosReyesSamuel.pdf",
     "1.png",
     "16.png",
-    "Hacking Ético/Tema 4.md",
     "tipotest.txt",
-    "Hacking Ético/Prácticas.md",
     "Sin nombre",
     "ejemplo1/index.php",
     "Normativas de Ciberseguridad/Tema 1.md",
