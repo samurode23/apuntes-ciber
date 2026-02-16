@@ -230,9 +230,21 @@
               "icon": "lucide-file",
               "title": "Tema 3"
             }
+          },
+          {
+            "id": "30ddeddc82da0db9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.11.7"
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -378,7 +390,7 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "182356a1779d9e94",
+  "active": "30ddeddc82da0db9",
   "lastOpenFiles": [
     "Puesta en Producción Segura/Tema 2.md",
     "Hacking Ético/Prácticas.md",
