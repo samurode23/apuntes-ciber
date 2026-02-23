@@ -15,3 +15,6 @@ Para verificar que todo esté bien, ejecutamos lo siguiente:
 echo $VOL_PLUGINS
 echo $VOL_PROFILE
 echo $VOL_MEM
+
+2.
+
