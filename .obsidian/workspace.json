@@ -260,7 +260,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -406,10 +406,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "0a534321008a160e",
+  "active": "30ddeddc82da0db9",
   "lastOpenFiles": [
-    "Puesta en Producción Segura/Tema 2.md",
     "Análisis Forense Informático/tarea.md",
+    "Puesta en Producción Segura/Tema 2.md",
     "Análisis Forense Informático/Tema 4.md",
     "Análisis Forense Informático/Tema 2.md",
     "Hacking Ético/Prácticas.md",
